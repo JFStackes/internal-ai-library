@@ -1,0 +1,5 @@
+# Official docs: https://developers.openai.com/codex/mcp
+# Optional template. Manually merge in project .codex/config.toml if desired.
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+enabled = false

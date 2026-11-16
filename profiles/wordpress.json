@@ -1,0 +1,12 @@
+{
+  "name": "wordpress",
+  "components": [
+    "wp-project-triage",
+    "wp-wpcli-and-ops",
+    "wp-rest-api",
+    "wp-plugin-development",
+    "wp-block-development",
+    "wp-performance",
+    "agent-wordpress-master"
+  ]
+}

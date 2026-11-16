@@ -1,0 +1,7 @@
+{
+  "name": "microsoft365",
+  "components": [
+    "clim365",
+    "agent-m365-admin"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "repo": "pnp/cli-microsoft365-mcp-server",
+  "url": "https://github.com/pnp/cli-microsoft365-mcp-server",
+  "default_branch": "main",
+  "commit": "38ed9902e36378c3e0404366e44d57e1df3807b4",
+  "commit_date": "2026-11-07T23:15:41Z",
+  "pushed_at": "2026-11-13T15:09:28Z",
+  "archived": false,
+  "stars_at_review": 137,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "integration-candidate",
+    "notes": "MIT, active official PnP MCP server; runtime reviewed separately under integrations. No server dependency installed or authentication performed.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

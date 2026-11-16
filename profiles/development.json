@@ -1,0 +1,12 @@
+{
+  "name": "development",
+  "components": [
+    "systematic-debugging",
+    "test-driven-development",
+    "verification-before-completion",
+    "mcp-builder",
+    "sharp-edges",
+    "supply-chain-risk-auditor",
+    "agent-fullstack-developer"
+  ]
+}

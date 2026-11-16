@@ -1,0 +1,9 @@
+# Optional template. Not installed or started by library.sh.
+# Source: pnp/cli-microsoft365-mcp-server@38ed9902e36378c3e0404366e44d57e1df3807b4
+# Requires Node >=20, CLI for Microsoft 365 and a separately authorized login.
+[mcp_servers.microsoft365]
+command = "npx"
+args = ["-y", "@pnp/cli-microsoft365-mcp-server@0.1.26"]
+enabled = false
+# Documentation-only tools; excludes m365RunCommand, which can mutate the tenant.
+enabled_tools = ["m365SearchCommands", "m365GetCommandDocs", "m365GetBestPractices"]

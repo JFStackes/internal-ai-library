@@ -1,0 +1,17 @@
+{
+  "repo": "vercel-labs/agent-skills",
+  "url": "https://github.com/vercel-labs/agent-skills",
+  "default_branch": "main",
+  "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "commit_date": "2026-10-27T21:40:02Z",
+  "pushed_at": "2026-11-12T14:09:10Z",
+  "archived": false,
+  "stars_at_review": 34184,
+  "license": "unlicensed",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "excluded",
+    "notes": "No repository LICENSE, per-skill LICENSE, or license metadata at pinned commit; do not redistribute until an explicit grant is verified.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

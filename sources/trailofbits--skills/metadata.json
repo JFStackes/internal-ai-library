@@ -1,0 +1,17 @@
+{
+  "repo": "trailofbits/skills",
+  "url": "https://github.com/trailofbits/skills",
+  "default_branch": "main",
+  "commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "commit_date": "2026-11-12T17:48:47Z",
+  "pushed_at": "2026-11-12T17:48:51Z",
+  "archived": false,
+  "stars_at_review": 8230,
+  "license": "CC-BY-SA-4.0",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "CC-BY-SA-4.0 attribution preserved. sharp-edges workflow is portable; allowed-tools does not enforce Codex permissions and optional sharp-edges-analyzer plugin agent is not imported. supply-chain collector reads manifests and fetches registry/advisory/repository metadata; writes cache/reports, can read gh auth token and run pip-audit --no-deps --disable-pip. Inspect before use and approve network disclosure of package names. No collector executed.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

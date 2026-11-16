@@ -1,0 +1,17 @@
+{
+  "repo": "Hassanzadeh-sd/ansible-ops-toolkit",
+  "url": "https://github.com/Hassanzadeh-sd/ansible-ops-toolkit",
+  "default_branch": "main",
+  "commit": "c9389dc0c219544fae5fd93b812b600903faf49c",
+  "commit_date": "2026-06-29T08:02:52Z",
+  "pushed_at": "2026-06-29T08:02:54Z",
+  "archived": false,
+  "stars_at_review": 3,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Community toolkit v0.1.0; inspected all five files. FQCN, idempotency, no_log, check/diff, production inventory safeguards. Referenced examples/nginx-role is absent upstream at this commit; use references, not that missing example. No playbook executed.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

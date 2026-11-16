@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "integrations": [
+    {
+      "id": "microsoft365",
+      "type": "mcp",
+      "template": "integrations/mcp/microsoft365.toml",
+      "source": "pnp/cli-microsoft365-mcp-server",
+      "commit": "38ed9902e36378c3e0404366e44d57e1df3807b4",
+      "package": "@pnp/cli-microsoft365-mcp-server",
+      "version": "0.1.26",
+      "license": "MIT",
+      "status": "reviewed-template-disabled",
+      "runtime_tested": false,
+      "notes": "Documentation-only tool allowlist; requires separately provisioned Node 20+, m365 CLI and authorized authentication. Not installed by profiles. Direct npm package pin does not lock transitive dependencies."
+    },
+    {
+      "id": "openai-docs",
+      "type": "mcp",
+      "template": "integrations/mcp/openai-docs.toml",
+      "source_url": "https://developers.openai.com/codex/mcp",
+      "endpoint": "https://developers.openai.com/mcp",
+      "version": "remote-service-unversioned",
+      "license": "service-terms",
+      "status": "reviewed-template-disabled",
+      "runtime_tested": false,
+      "notes": "Official documentation endpoint. Remote service cannot be pinned to a Git commit; availability and behavior are external. No connection made."
+    }
+  ]
+}

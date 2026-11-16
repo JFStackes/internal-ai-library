@@ -1,0 +1,17 @@
+{
+  "repo": "VoltAgent/awesome-codex-subagents",
+  "url": "https://github.com/VoltAgent/awesome-codex-subagents",
+  "default_branch": "main",
+  "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+  "commit_date": "2026-11-02T06:51:46Z",
+  "pushed_at": "2026-11-02T06:51:46Z",
+  "archived": false,
+  "stars_at_review": 6483,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Seven native TOML agents. MIT; preserve originals and derive current Codex installation adapters.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

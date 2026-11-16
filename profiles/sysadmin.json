@@ -1,0 +1,12 @@
+{
+  "name": "sysadmin",
+  "components": [
+    "sysadmin-diagnose",
+    "sysadmin-monitor",
+    "sysadmin-performance",
+    "ansible-ops",
+    "agent-windows-infra-admin",
+    "agent-devops-engineer",
+    "agent-incident-responder"
+  ]
+}

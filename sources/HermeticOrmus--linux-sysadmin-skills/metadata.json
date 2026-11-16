@@ -1,0 +1,17 @@
+{
+  "repo": "HermeticOrmus/linux-sysadmin-skills",
+  "url": "https://github.com/HermeticOrmus/linux-sysadmin-skills",
+  "default_branch": "main",
+  "commit": "358769e5e43197609b093a354f182cc6ad1118c2",
+  "commit_date": "2026-05-25T17:30:10Z",
+  "pushed_at": "2026-05-25T17:30:10Z",
+  "archived": false,
+  "stars_at_review": 9,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Community-maintained short Debian/Ubuntu runbooks; inspected selected Markdown. Diagnose/performance require approval before changes; monitor explicitly read-only. Not a comprehensive Linux/SSH/backup/Proxmox suite.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

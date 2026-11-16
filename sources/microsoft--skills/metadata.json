@@ -1,0 +1,17 @@
+{
+  "repo": "microsoft/skills",
+  "url": "https://github.com/microsoft/skills",
+  "default_branch": "main",
+  "commit": "f03ec5392f7a0f3aca12af47477e92f1edf7b44c",
+  "commit_date": "2026-11-13T18:08:40Z",
+  "pushed_at": "2026-11-16T11:03:29Z",
+  "archived": false,
+  "stars_at_review": 3211,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "reviewed-not-selected",
+    "notes": "MIT source exists and active. Broad Azure/SDK/Copilot collection; initial M365 administration need covered more directly by PnP clim365 + VoltAgent m365-admin. Avoid redundant docs MCP dependency and unsupported context:fork assumption. Suitable future source with per-skill review.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

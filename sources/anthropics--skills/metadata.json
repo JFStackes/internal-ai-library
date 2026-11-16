@@ -1,0 +1,18 @@
+{
+  "repo": "anthropics/skills",
+  "url": "https://github.com/anthropics/skills",
+  "default_branch": "main",
+  "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+  "commit_date": "2026-11-16T14:22:47Z",
+  "pushed_at": "2026-11-16T14:22:50Z",
+  "archived": false,
+  "stars_at_review": 195780,
+  "license": "mixed / per-skill",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "mcp-builder guide is portable to Codex; Apache-2.0 per-skill LICENSE. Retained optional Python evaluation harness uses Anthropic API and calls target MCP tools, which may mutate services or incur charges. Not run or required by the installer. Review targets/dependencies and obtain explicit authorization before harness execution.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  },
+  "license_scope": "Selected skills/mcp-builder/LICENSE.txt is Apache-2.0. Do not assume other skills share this license."
+}

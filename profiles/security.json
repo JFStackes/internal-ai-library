@@ -1,0 +1,9 @@
+{
+  "name": "security",
+  "components": [
+    "sharp-edges",
+    "supply-chain-risk-auditor",
+    "agent-security-auditor",
+    "agent-incident-responder"
+  ]
+}

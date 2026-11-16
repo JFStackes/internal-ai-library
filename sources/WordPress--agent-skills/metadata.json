@@ -1,0 +1,17 @@
+{
+  "repo": "WordPress/agent-skills",
+  "url": "https://github.com/WordPress/agent-skills",
+  "default_branch": "trunk",
+  "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+  "commit_date": "2026-11-05T21:35:52Z",
+  "pushed_at": "2026-11-16T04:23:30Z",
+  "archived": false,
+  "stars_at_review": 2375,
+  "license": "GPL-2.0-or-later",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

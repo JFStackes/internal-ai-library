@@ -1,0 +1,17 @@
+{
+  "repo": "pnp/cli-microsoft365",
+  "url": "https://github.com/pnp/cli-microsoft365",
+  "default_branch": "main",
+  "commit": "945ca0d61729c2022780d12f0380e5ac4d882151",
+  "commit_date": "2026-11-16T06:47:47Z",
+  "pushed_at": "2026-11-16T06:48:22Z",
+  "archived": false,
+  "stars_at_review": 1482,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Official PnP CLI project; included clim365 instructions and command index. Requires separately installed m365 and explicitly authorized login; verifies --help before commands. Contains write examples; installation does not authenticate or authorize tenant changes. No tenant accessed.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

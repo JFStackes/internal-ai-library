@@ -1,0 +1,32 @@
+{
+  "name": "full",
+  "components": [
+    "sysadmin-diagnose",
+    "sysadmin-monitor",
+    "sysadmin-performance",
+    "docker-compose-patterns",
+    "docker-build-strategies",
+    "docker-destructive-guardrails",
+    "ansible-ops",
+    "systematic-debugging",
+    "test-driven-development",
+    "verification-before-completion",
+    "wp-project-triage",
+    "wp-wpcli-and-ops",
+    "wp-rest-api",
+    "wp-plugin-development",
+    "wp-block-development",
+    "wp-performance",
+    "clim365",
+    "mcp-builder",
+    "sharp-edges",
+    "supply-chain-risk-auditor",
+    "agent-windows-infra-admin",
+    "agent-devops-engineer",
+    "agent-fullstack-developer",
+    "agent-security-auditor",
+    "agent-incident-responder",
+    "agent-wordpress-master",
+    "agent-m365-admin"
+  ]
+}

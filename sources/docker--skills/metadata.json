@@ -1,0 +1,17 @@
+{
+  "repo": "docker/skills",
+  "url": "https://github.com/docker/skills",
+  "default_branch": "main",
+  "commit": "a65ae5b65d22f0613375d6c3e5ea8bb287698cc0",
+  "commit_date": "2026-11-13T15:17:53Z",
+  "pushed_at": "2026-11-13T15:17:57Z",
+  "archived": false,
+  "stars_at_review": 636,
+  "license": "Apache-2.0",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Official Docker publisher; inspected selected skill files, assets and Bash helpers. verify-compose validates quietly; verify-build actually builds an image and requires an explicitly authorized local build. Guardrails cover destructive CLI operations. No helper executed during import.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}

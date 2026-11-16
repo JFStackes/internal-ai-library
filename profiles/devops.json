@@ -1,0 +1,10 @@
+{
+  "name": "devops",
+  "components": [
+    "docker-compose-patterns",
+    "docker-build-strategies",
+    "docker-destructive-guardrails",
+    "ansible-ops",
+    "agent-devops-engineer"
+  ]
+}

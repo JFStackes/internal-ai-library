@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "components": [
+    {
+      "id": "sysadmin-diagnose",
+      "type": "skill",
+      "name": "sysadmin-diagnose",
+      "source": "HermeticOrmus/linux-sysadmin-skills",
+      "commit": "358769e5e43197609b093a354f182cc6ad1118c2",
+      "upstream_path": "skills/sysadmin-diagnose",
+      "path": "skills/external/sysadmin-diagnose",
+      "license": "MIT",
+      "categories": [
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Community-maintained short Debian/Ubuntu runbooks; inspected selected Markdown. Diagnose/performance require approval before changes; monitor explicitly read-only. Not a comprehensive Linux/SSH/backup/Proxmox suite."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/HermeticOrmus--linux-sysadmin-skills/LICENSE",
+          "sha256": "63613c50f542f472fd46ecacce8e85de676daffcc6b0457827199215e970f707"
+        }
+      },
+      "requirements": [
+        "Debian/Ubuntu command-line utilities; authorized target"
+      ]
+    },
+    {
+      "id": "sysadmin-monitor",
+      "type": "skill",
+      "name": "sysadmin-monitor",
+      "source": "HermeticOrmus/linux-sysadmin-skills",
+      "commit": "358769e5e43197609b093a354f182cc6ad1118c2",
+      "upstream_path": "skills/sysadmin-monitor",
+      "path": "skills/external/sysadmin-monitor",
+      "license": "MIT",
+      "categories": [
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Community-maintained short Debian/Ubuntu runbooks; inspected selected Markdown. Diagnose/performance require approval before changes; monitor explicitly read-only. Not a comprehensive Linux/SSH/backup/Proxmox suite."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/HermeticOrmus--linux-sysadmin-skills/LICENSE",
+          "sha256": "63613c50f542f472fd46ecacce8e85de676daffcc6b0457827199215e970f707"
+        }
+      },
+      "requirements": [
+        "Debian/Ubuntu command-line utilities; authorized target"
+      ]
+    },
+    {
+      "id": "sysadmin-performance",
+      "type": "skill",
+      "name": "sysadmin-performance",
+      "source": "HermeticOrmus/linux-sysadmin-skills",
+      "commit": "358769e5e43197609b093a354f182cc6ad1118c2",
+      "upstream_path": "skills/sysadmin-performance",
+      "path": "skills/external/sysadmin-performance",
+      "license": "MIT",
+      "categories": [
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Community-maintained short Debian/Ubuntu runbooks; inspected selected Markdown. Diagnose/performance require approval before changes; monitor explicitly read-only. Not a comprehensive Linux/SSH/backup/Proxmox suite."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/HermeticOrmus--linux-sysadmin-skills/LICENSE",
+          "sha256": "63613c50f542f472fd46ecacce8e85de676daffcc6b0457827199215e970f707"
+        }
+      },
+      "requirements": [
+        "Debian/Ubuntu; optional sysstat, ifstat, smartmontools"
+      ]
+    },
+    {
+      "id": "docker-compose-patterns",
+      "type": "skill",
+      "name": "docker-compose-patterns",
+      "source": "docker/skills",
+      "commit": "a65ae5b65d22f0613375d6c3e5ea8bb287698cc0",
+      "upstream_path": "skills/docker-compose-patterns",
+      "path": "skills/external/docker-compose-patterns",
+      "license": "Apache-2.0",
+      "categories": [
+        "devops"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official Docker publisher; inspected selected skill files, assets and Bash helpers. verify-compose validates quietly; verify-build actually builds an image and requires an explicitly authorized local build. Guardrails cover destructive CLI operations. No helper executed during import."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/docker--skills/LICENSE",
+          "sha256": "3bb33f65872155f0801efc9f6732e2868eb338c5ed6a81eec5c775c1382761cb"
+        }
+      },
+      "requirements": [
+        "Docker Compose v2 for live validation"
+      ]
+    },
+    {
+      "id": "docker-build-strategies",
+      "type": "skill",
+      "name": "docker-build-strategies",
+      "source": "docker/skills",
+      "commit": "a65ae5b65d22f0613375d6c3e5ea8bb287698cc0",
+      "upstream_path": "skills/docker-build-strategies",
+      "path": "skills/external/docker-build-strategies",
+      "license": "Apache-2.0",
+      "categories": [
+        "devops"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official Docker publisher; inspected selected skill files, assets and Bash helpers. verify-compose validates quietly; verify-build actually builds an image and requires an explicitly authorized local build. Guardrails cover destructive CLI operations. No helper executed during import."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/docker--skills/LICENSE",
+          "sha256": "3bb33f65872155f0801efc9f6732e2868eb338c5ed6a81eec5c775c1382761cb"
+        }
+      },
+      "requirements": [
+        "Docker engine for optional build helper"
+      ]
+    },
+    {
+      "id": "docker-destructive-guardrails",
+      "type": "skill",
+      "name": "docker-destructive-guardrails",
+      "source": "docker/skills",
+      "commit": "a65ae5b65d22f0613375d6c3e5ea8bb287698cc0",
+      "upstream_path": "skills/docker-destructive-guardrails",
+      "path": "skills/external/docker-destructive-guardrails",
+      "license": "Apache-2.0",
+      "categories": [
+        "devops"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official Docker publisher; inspected selected skill files, assets and Bash helpers. verify-compose validates quietly; verify-build actually builds an image and requires an explicitly authorized local build. Guardrails cover destructive CLI operations. No helper executed during import."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/docker--skills/LICENSE",
+          "sha256": "3bb33f65872155f0801efc9f6732e2868eb338c5ed6a81eec5c775c1382761cb"
+        }
+      },
+      "requirements": [
+        "Docker CLI only for authorized live operations"
+      ]
+    },
+    {
+      "id": "ansible-ops",
+      "type": "skill",
+      "name": "ansible-ops",
+      "source": "Hassanzadeh-sd/ansible-ops-toolkit",
+      "commit": "c9389dc0c219544fae5fd93b812b600903faf49c",
+      "upstream_path": "skills/ansible-ops",
+      "path": "skills/external/ansible-ops",
+      "license": "MIT",
+      "categories": [
+        "devops",
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Community toolkit v0.1.0; inspected all five files. FQCN, idempotency, no_log, check/diff, production inventory safeguards. Referenced examples/nginx-role is absent upstream at this commit; use references, not that missing example. No playbook executed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/Hassanzadeh-sd--ansible-ops-toolkit/LICENSE",
+          "sha256": "cb4387a1a4e2121e1babdb5109faaa2464de1f4a0cedc3ce3aa30e33f02aa8e7"
+        }
+      },
+      "requirements": [
+        "Ansible; ansible-lint/yamllint for actual playbook checks"
+      ]
+    },
+    {
+      "id": "systematic-debugging",
+      "type": "skill",
+      "name": "systematic-debugging",
+      "source": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "upstream_path": "skills/systematic-debugging",
+      "path": "skills/external/systematic-debugging",
+      "license": "MIT",
+      "categories": [
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Selected portable debugging/TDD/verification workflows only; no plugin hooks/bootstrap installed. Cross-references superpowers:... mean the included skill with the same basename in Codex. find-polluter.sh invokes project npm tests; review those tests before execution."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/obra--superpowers/LICENSE",
+          "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+        }
+      },
+      "requirements": [
+        "Project-specific test runner; included test-driven-development and verification-before-completion workflows"
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "skill",
+      "name": "test-driven-development",
+      "source": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "upstream_path": "skills/test-driven-development",
+      "path": "skills/external/test-driven-development",
+      "license": "MIT",
+      "categories": [
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Selected portable debugging/TDD/verification workflows only; no plugin hooks/bootstrap installed. Cross-references superpowers:... mean the included skill with the same basename in Codex. find-polluter.sh invokes project npm tests; review those tests before execution."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/obra--superpowers/LICENSE",
+          "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+        }
+      },
+      "requirements": [
+        "Project-specific test runner"
+      ]
+    },
+    {
+      "id": "verification-before-completion",
+      "type": "skill",
+      "name": "verification-before-completion",
+      "source": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "upstream_path": "skills/verification-before-completion",
+      "path": "skills/external/verification-before-completion",
+      "license": "MIT",
+      "categories": [
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Selected portable debugging/TDD/verification workflows only; no plugin hooks/bootstrap installed. Cross-references superpowers:... mean the included skill with the same basename in Codex. find-polluter.sh invokes project npm tests; review those tests before execution."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/obra--superpowers/LICENSE",
+          "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+        }
+      },
+      "requirements": [
+        "Project-specific validation commands"
+      ]
+    },
+    {
+      "id": "wp-project-triage",
+      "type": "skill",
+      "name": "wp-project-triage",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-project-triage",
+      "path": "skills/external/wp-project-triage",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "wp-wpcli-and-ops",
+      "type": "skill",
+      "name": "wp-wpcli-and-ops",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-wpcli-and-ops",
+      "path": "skills/external/wp-wpcli-and-ops",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "wp-rest-api",
+      "type": "skill",
+      "name": "wp-rest-api",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-rest-api",
+      "path": "skills/external/wp-rest-api",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "wp-plugin-development",
+      "type": "skill",
+      "name": "wp-plugin-development",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-plugin-development",
+      "path": "skills/external/wp-plugin-development",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "wp-block-development",
+      "type": "skill",
+      "name": "wp-block-development",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-block-development",
+      "path": "skills/external/wp-block-development",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "wp-performance",
+      "type": "skill",
+      "name": "wp-performance",
+      "source": "WordPress/agent-skills",
+      "commit": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "upstream_path": "skills/wp-performance",
+      "path": "skills/external/wp-performance",
+      "license": "GPL-2.0-or-later",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official WordPress source; inspected six workflows, references and Node helper IO/spawn sites. Inspector helpers include local filesystem scans and WP-CLI read queries; WP-CLI can bootstrap local plugins, so only run against trusted authorized installs. Original command examples assume skills/<name>; resolve paths under actual installed skill directory. Targets WordPress 7.0+; verify target version. No WP instance accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/WordPress--agent-skills/LICENSE",
+          "sha256": "e32a315ba45df64329783a922f7bf457064b7a8fa1f46c1bda55a95850d5377c"
+        }
+      },
+      "requirements": [
+        "Node.js for optional inspection helpers; WordPress 7.0+/PHP target compatibility; WP-CLI for live queries"
+      ]
+    },
+    {
+      "id": "clim365",
+      "type": "skill",
+      "name": "clim365",
+      "source": "pnp/cli-microsoft365",
+      "commit": "945ca0d61729c2022780d12f0380e5ac4d882151",
+      "upstream_path": "skills/clim365",
+      "path": "skills/external/clim365",
+      "license": "MIT",
+      "categories": [
+        "microsoft365"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Official PnP CLI project; included clim365 instructions and command index. Requires separately installed m365 and explicitly authorized login; verifies --help before commands. Contains write examples; installation does not authenticate or authorize tenant changes. No tenant accessed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/pnp--cli-microsoft365/LICENSE",
+          "sha256": "e46ac04a9b77256bbae7739147f52bbf505d224b20ef10f8470e68e9700abb48"
+        }
+      },
+      "requirements": [
+        "Separately installed CLI for Microsoft 365 (m365); user-authorized authentication/permissions"
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "type": "skill",
+      "name": "mcp-builder",
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "upstream_path": "skills/mcp-builder",
+      "path": "skills/external/mcp-builder",
+      "license": "Apache-2.0",
+      "categories": [
+        "ai-automation",
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "mcp-builder guide is portable to Codex; Apache-2.0 per-skill LICENSE. Retained optional Python evaluation harness uses Anthropic API and calls target MCP tools, which may mutate services or incur charges. Not run or required by the installer. Review targets/dependencies and obtain explicit authorization before harness execution."
+      },
+      "requirements": [
+        "No runtime for guide; optional harness needs Python dependencies + Anthropic API + authorized MCP target"
+      ]
+    },
+    {
+      "id": "sharp-edges",
+      "type": "skill",
+      "name": "sharp-edges",
+      "source": "trailofbits/skills",
+      "commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+      "upstream_path": "plugins/sharp-edges/skills/sharp-edges",
+      "path": "skills/external/sharp-edges",
+      "license": "CC-BY-SA-4.0",
+      "categories": [
+        "security",
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "CC-BY-SA-4.0 attribution preserved. sharp-edges workflow is portable; allowed-tools does not enforce Codex permissions and optional sharp-edges-analyzer plugin agent is not imported. supply-chain collector reads manifests and fetches registry/advisory/repository metadata; writes cache/reports, can read gh auth token and run pip-audit --no-deps --disable-pip. Inspect before use and approve network disclosure of package names. No collector executed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/trailofbits--skills/LICENSE",
+          "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297"
+        }
+      },
+      "requirements": [
+        "No external runtime required for direct review; optional upstream agent not included"
+      ]
+    },
+    {
+      "id": "supply-chain-risk-auditor",
+      "type": "skill",
+      "name": "supply-chain-risk-auditor",
+      "source": "trailofbits/skills",
+      "commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+      "upstream_path": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor",
+      "path": "skills/external/supply-chain-risk-auditor",
+      "license": "CC-BY-SA-4.0",
+      "categories": [
+        "security",
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "CC-BY-SA-4.0 attribution preserved. sharp-edges workflow is portable; allowed-tools does not enforce Codex permissions and optional sharp-edges-analyzer plugin agent is not imported. supply-chain collector reads manifests and fetches registry/advisory/repository metadata; writes cache/reports, can read gh auth token and run pip-audit --no-deps --disable-pip. Inspect before use and approve network disclosure of package names. No collector executed."
+      },
+      "packaging_additions": {
+        "UPSTREAM_LICENSE.txt": {
+          "copied_from": "sources/trailofbits--skills/LICENSE",
+          "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297"
+        }
+      },
+      "requirements": [
+        "Python 3.11+ for optional collector; outbound registry/advisory metadata access; optional gh/pip-audit"
+      ]
+    },
+    {
+      "id": "agent-windows-infra-admin",
+      "type": "agent",
+      "name": "windows-infra-admin",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/03-infrastructure/windows-infra-admin.toml",
+      "path": "agents/upstream/windows-infra-admin.toml",
+      "install_path": "agents/codex/windows-infra-admin.toml",
+      "license": "MIT",
+      "categories": [
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-devops-engineer",
+      "type": "agent",
+      "name": "devops-engineer",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/03-infrastructure/devops-engineer.toml",
+      "path": "agents/upstream/devops-engineer.toml",
+      "install_path": "agents/codex/devops-engineer.toml",
+      "license": "MIT",
+      "categories": [
+        "devops",
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-fullstack-developer",
+      "type": "agent",
+      "name": "fullstack-developer",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/01-core-development/fullstack-developer.toml",
+      "path": "agents/upstream/fullstack-developer.toml",
+      "install_path": "agents/codex/fullstack-developer.toml",
+      "license": "MIT",
+      "categories": [
+        "development"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-security-auditor",
+      "type": "agent",
+      "name": "security-auditor",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/04-quality-security/security-auditor.toml",
+      "path": "agents/upstream/security-auditor.toml",
+      "install_path": "agents/codex/security-auditor.toml",
+      "license": "MIT",
+      "categories": [
+        "security"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-incident-responder",
+      "type": "agent",
+      "name": "incident-responder",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/03-infrastructure/incident-responder.toml",
+      "path": "agents/upstream/incident-responder.toml",
+      "install_path": "agents/codex/incident-responder.toml",
+      "license": "MIT",
+      "categories": [
+        "security",
+        "sysadmin"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-wordpress-master",
+      "type": "agent",
+      "name": "wordpress-master",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/08-business-product/wordpress-master.toml",
+      "path": "agents/upstream/wordpress-master.toml",
+      "install_path": "agents/codex/wordpress-master.toml",
+      "license": "MIT",
+      "categories": [
+        "wordpress"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    },
+    {
+      "id": "agent-m365-admin",
+      "type": "agent",
+      "name": "m365-admin",
+      "source": "VoltAgent/awesome-codex-subagents",
+      "commit": "9abe3279a0aa4ee518381af800ca1062398f5433",
+      "upstream_path": "categories/07-specialized-domains/m365-admin.toml",
+      "path": "agents/upstream/m365-admin.toml",
+      "install_path": "agents/codex/m365-admin.toml",
+      "license": "MIT",
+      "categories": [
+        "microsoft365"
+      ],
+      "review": {
+        "status": "approved",
+        "notes": "Native TOML original retained. Reviewed responsibilities and production-safety language. Library adapter preserves developer_instructions and adds shared safety/skill guidance, strips pinned model/reasoning/sandbox overrides to inherit the operator session. No capability/tool access implied by role name."
+      }
+    }
+  ]
+}

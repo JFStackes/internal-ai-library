@@ -1,0 +1,17 @@
+{
+  "repo": "obra/superpowers",
+  "url": "https://github.com/obra/superpowers",
+  "default_branch": "main",
+  "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+  "commit_date": "2026-11-03T22:17:07Z",
+  "pushed_at": "2026-11-03T23:24:58Z",
+  "archived": false,
+  "stars_at_review": 318543,
+  "license": "MIT",
+  "reviewed_on": "2026-11-16",
+  "review": {
+    "status": "selected",
+    "notes": "Selected portable debugging/TDD/verification workflows only; no plugin hooks/bootstrap installed. Cross-references superpowers:... mean the included skill with the same basename in Codex. find-polluter.sh invokes project npm tests; review those tests before execution.",
+    "method": "GitHub connector existence check; public GitHub REST metadata+commit+recursive tree; immutable raw file retrieval; static selected-content review. No upstream scripts executed."
+  }
+}
